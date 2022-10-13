@@ -35,7 +35,23 @@ const mensajesDeError = {
     nacimiento:{
         valueMissing: "El campo fecha no puede estar vacio",
         customError: "Debes tener al menos 18 años de edad",
-    }
+    },
+    telefono:{
+        valueMissing: "El número de teléfono es requerido",
+        patternMismatch: "Debe tener 10 números",
+    },
+    direccion:{
+        valueMissing: "Este campo es requerido",
+        patternMismatch: "Debe contener mínimo 10 caracteres y máximo 40",
+    },
+    ciudad:{
+        valueMissing: "Este campo es requerido",
+        patternMismatch: "Debe contener mínimo 10 caracteres y máximo 40",
+    },
+    provincia:{
+        valueMissing: "Este campo es requerido",
+        patternMismatch: "Debe contener mínimo 10 caracteres y máximo 40",
+    },
 }
 
 function mostrarMensajeDeError(tipoInput, input){
