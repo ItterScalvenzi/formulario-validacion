@@ -42,15 +42,15 @@ const mensajesDeError = {
     },
     direccion:{
         valueMissing: "Este campo es requerido",
-        patternMismatch: "Debe contener mínimo 10 caracteres y máximo 40",
+        patternMismatch: "Debe contener mínimo 4 caracteres y máximo 40",
     },
     ciudad:{
         valueMissing: "Este campo es requerido",
-        patternMismatch: "Debe contener mínimo 10 caracteres y máximo 40",
+        patternMismatch: "Debe contener mínimo 4 caracteres y máximo 40",
     },
     provincia:{
         valueMissing: "Este campo es requerido",
-        patternMismatch: "Debe contener mínimo 10 caracteres y máximo 40",
+        patternMismatch: "Debe contener mínimo 4 caracteres y máximo 40",
     },
 }
 
